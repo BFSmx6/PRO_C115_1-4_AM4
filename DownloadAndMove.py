@@ -44,7 +44,7 @@ class FileMovementHandler(FileSystemEventHandler):
 
                 if os.path.exists(path2):
 
-                    print("Directorio Exists...")
+                    print("Directorio Existe...")
                     print("Moviendo " + file_name + "....")
                     shutil.move(path1, path3)
                     time.sleep(1)
